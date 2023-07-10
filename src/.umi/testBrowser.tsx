@@ -3,13 +3,13 @@
 // DO NOT CHANGE IT MANUALLY!
 import React, { useEffect, useState } from 'react';
 import { ApplyPluginsType } from 'umi';
-import { renderClient, RenderClientOpts } from '/Users/puchunwei/sanbox/TechFusionLab-Fe/node_modules/@umijs/renderer-react';
+import { renderClient, RenderClientOpts } from '/Users/puchunwei/sanbox/TechFusionLab-FE/node_modules/@umijs/renderer-react';
 import { createHistory } from './core/history';
 import { createPluginManager } from './core/plugin';
 import { getRoutes } from './core/route';
 import type { Location } from 'history';
 
-
+import 'antd/dist/reset.css';
 const publicPath = '/';
 const runtimePublicPath = false;
 

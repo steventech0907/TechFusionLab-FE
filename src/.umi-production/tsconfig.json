@@ -26,10 +26,10 @@
       "@@/*": [
         "src/.umi/*"
       ],
-      "umi": [
-        "/Users/puchunwei/sanbox/TechFusionLab-Fe/node_modules/umi"
+      "@umijs/max": [
+        "/Users/puchunwei/sanbox/TechFusionLab-FE/node_modules/umi"
       ],
-      "umi/typings": [
+      "@umijs/max/typings": [
         "src/.umi/typings"
       ]
     }
